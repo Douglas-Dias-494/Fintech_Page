@@ -1,0 +1,117 @@
+.container__back {
+    display: flex;
+    width: 15vw;
+    gap: 20px;
+}
+
+.custom-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 14vh;
+}
+
+.back {
+    display: flex;
+    align-items: center;
+}
+
+.back h2 {
+    font-size: 25px;
+    
+}
+
+.back-arrow {
+    display: flex;
+}
+
+.back-arrow img {
+    width: 50px;
+    color: white;
+}
+
+.back-arrow img:hover {
+    cursor: pointer;
+}
+
+.infos_account {
+    display: flex;
+    margin-right: 20px;
+    gap: 45px;
+}
+
+.notifications {
+    display: flex;
+}
+
+.notifications img {
+    width: 35px;
+}
+
+.notifications img:hover {
+    cursor: pointer;
+}
+
+.user {
+    display: flex;
+}
+
+.user img {
+    width: 55px;
+}
+
+.user img:hover {
+    cursor: pointer;
+}
+
+main {
+    height: 100vh;
+}
+
+
+main .saldo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.info_extrato {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.info_extrato strong {
+    color: black;
+}
+
+
+
+.btn_paiva {
+    text-align: left;
+    width: 17em;
+    font-weight: bold;
+}
+
+.analisePaiva img {
+    position: relative;
+    right: 14%;
+    width: 25px;
+}
+
+.movimentacoes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.movimentacoes strong {
+    color: black;
+}
+
+.btn_movimentacoes {
+    font-weight: bold;
+    margin-right: 3px;
+}
